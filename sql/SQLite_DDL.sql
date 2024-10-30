@@ -12,11 +12,6 @@ create table clientes(
     ciudad varchar(25) not null,
     email varchar(25) not null,
     telefono varchar(25) not null
-    -- dia varchar(12) not null 
-    --             check(dia IN('LUNES','MARTES','MIERCOLES','JUEVES','VIERNES')),
-    -- turno varchar(25) not null
-    --             check(turno IN('MAÑANA','TARDE','NOCHE')),
-    -- activo boolean default TRUE,
 );
 
 create table productos(

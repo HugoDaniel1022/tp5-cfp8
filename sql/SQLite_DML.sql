@@ -138,4 +138,3 @@ INSERT INTO detalles (id_detalle, pedido_id, producto_id, cantidad) VALUES
 (23, 19, 17, 2),
 (24, 20, 11, 1),
 (25, 21, 13, 4);
-
