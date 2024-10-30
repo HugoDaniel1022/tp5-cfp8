@@ -1,4 +1,4 @@
--- Active: 1730129034874@@127.0.0.1@3306
+-- Active: 1730294947984@@127.0.0.1@3306
 drop table if exists clientes;
 drop table if exists productos;
 drop table if exists pedidos;
