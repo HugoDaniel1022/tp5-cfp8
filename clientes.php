@@ -105,6 +105,9 @@
                 </tr>
             </thead>
             <tbody>
+                <?php
+                include_once "php/front/clientesTabla.php";
+                ?>
             </tbody>
         </table>
     </div>
