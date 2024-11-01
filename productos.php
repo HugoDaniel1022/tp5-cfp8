@@ -58,7 +58,9 @@
                 <label for="info" class="col-sm-3 col-form-label text-primary">Información</label>
                 <div class="col-sm-9">
                     <div class="form-control text-primary" id="info">
-                        0
+                        <?php
+                        include_once "php/front/productosInsert.php";
+                        ?>
                     </div>
                 </div>
             </div>
@@ -74,6 +76,9 @@
                 </tr>
             </thead>
             <tbody>
+                <?php
+                include_once "php/front/productosTabla.php"
+                ?>
             </tbody>
         </table>
     </div>
